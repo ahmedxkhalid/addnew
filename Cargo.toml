@@ -1,0 +1,16 @@
+[dependencies]
+
+[[bin]]
+name = "addnew"
+path = "addnew.rs"
+
+
+[package]
+name = "addnew"
+version = "0.1.0"
+authors = ["You <your_email@example.com>"]
+license = "MIT"
+
+[profile.release]
+# Optimize for release builds (optional)
+opt-level = 3
