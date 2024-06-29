@@ -1,5 +1,4 @@
 # addnew: A Rust Implementation of `tee -a`
-=====================================================
 
 ## Overview
 ------------
@@ -24,3 +23,25 @@
 
 -------
 `$ addnew -o output.txt input.txt`
+
+
+This will write the contents of `input.txt` to `output.txt`, skipping duplicate lines.
+
+
+## Features
+
+---------
+
+
+* Efficient duplicate detection using a `HashSet`
+
+* Polymorphic writing to either a file or standard output
+
+* Error handling using `std::error::Error`
+
+## Intallation 
+
+-----------------------
+
+`cargo install --git https://github.com/ahmedxkhalid/addnew/`
+
